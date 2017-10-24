@@ -1,0 +1,42 @@
+{
+    "key": "group_599e155841df5",
+    "title": "Location Custom Fields",
+    "fields": [
+        {
+            "key": "field_599e1560755dc",
+            "label": "Location",
+            "name": "location_map",
+            "type": "google_map",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "center_lat": "20.9128029",
+            "center_lng": "-100.7441382",
+            "zoom": 14,
+            "height": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "listing"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1503532535
+}

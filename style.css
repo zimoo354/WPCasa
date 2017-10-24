@@ -1,0 +1,1043 @@
+/*
+ Theme Name:   Colonial Real Estate
+ Theme URI:    http://colonialrealestate.com
+ Description:  Colonial Real Estate
+ Author: Carlos Isaias Ruiz Lara
+ Author URI:   http://iw.digital
+ Template:     uptown
+ Version:      1.0.0
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Hind|Open+Sans');
+
+body, html {
+	height: auto !important;
+}
+
+textarea {
+    resize: none;
+}
+
+span, p {
+	font-family:'Open Sans';
+}
+
+section,
+.section-div {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+	background-size: cover;
+	background-position: 50% 50%;
+	position: relative;
+}
+
+.pad-und-top{
+    padding: 40px 0 0 0;
+}
+.paad-und-botton{
+     padding: 0 0 40px 0;
+}
+.pad-und-lg {
+	padding: 100px 0 100px 0;
+}
+.pad-und-md {
+	padding: 70px 0 70px 0;
+}
+.pad-und-ssm {
+	padding: 40px 0 40px 0;
+}
+.pad-und-sssm {
+	padding: 30px 0 30px 0;
+}
+.pad-und-smancho {
+	padding: 185px 60px 0 60px;
+}
+.pad-und-xs {
+	padding: 20px 0 20px 0;
+}
+.display-none {
+	display: none;
+}
+.down-head {
+	margin-top: 80px;
+}
+.down-elementlg {
+	margin-top: 10px
+}
+.down-elementmd {
+	margin-top: 1cm;
+}
+.down-contentmd {
+	margin-bottom: 1cm;
+}
+
+.centerhome {
+	text-align: center;
+}
+.embedbg,
+.img {
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat:no-repeat;
+}
+.row.extra {
+	max-width: 75rem;
+}
+a.full {
+	position: absolute;
+	z-index:10;
+	width:100%;
+	height:100%;
+	top: 0;
+	left: 0;
+}
+
+/* Header */
+
+header {
+	z-index: 2;
+}
+
+header a.menu-mobile-trigger {
+	display: block;
+	margin: 35px 6px;
+}
+
+header:not(.abs) {
+	position: relative;
+	background-color: #940404;
+	padding-bottom: .6cm;
+}
+
+header.abs {
+	position: absolute;
+	background-color: transparent;
+}
+
+.header img{
+	padding-top: .6cm;
+	width: 5cm;
+}
+
+header:not(.abs) img {
+	width: 3cm;
+}
+header a{
+	color: white;
+	font-family: 'Open Sans', sans-serif!important;
+	font-size:20px !important;
+
+
+}
+header a:hover{
+	color: white;
+}
+header .hvr-underline-from-center:before{
+	background: white!important;
+	height: 2px!important;
+}
+
+header:not(.abs) .menu {
+	padding-top: 5px;
+}
+header .menu{
+	padding-top: 30px;
+}
+#flags li {
+	margin: 10px;
+}
+/* Header */
+
+/* Home */
+
+#principal {
+	position: relative;
+
+}
+
+#tres .button {
+	background: #046494 !important;
+	display: block !important;
+	margin: 0 auto !important;
+}
+#principal .swiper-slide {
+	height: 100vh;
+	background-size: cover;
+	background-position: 50% 50%;
+
+}
+
+#uno{
+	height: auto;
+	background-color: #940404;
+}
+
+#principal .swiper-slide {
+	height: 100vh;
+	position: relative;
+}
+
+#principal .swiper-slide .overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+
+#principal .title {
+	position: relative;
+	z-index: 5;
+}
+
+#principal .title h1{
+	font-family: 'Hind', sans-serif;
+	color: #4a4a4a;
+	font-weight: 600;
+	margin-top: 25vh;
+	color: white!important;
+}
+
+#principal .title h2{
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 3px;
+	color: white!important;
+}
+
+#principal .title h3{
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 3px;
+	color: white!important;
+}
+#uno h1{
+	font-family: 'Hind', sans-serif;
+	font-size: 45px;
+	color: #4a4a4a;
+	font-weight: 600;
+	margin-top: 3px;
+	color: white!important;
+}
+#uno p{
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	margin-top: 3px;
+	color: white!important;
+}
+
+.featured .columns {
+	position: relative;
+}
+
+.featured .columns .embedbg {
+	height: 260px;
+}
+
+.featured h1{
+	font-family: 'Hind', sans-serif;
+	font-size: 45px;
+	color:#404040;
+	font-weight: 600;
+	margin-top: 3px;
+}
+
+#tres h1{
+	font-family: 'Hind', sans-serif;
+	font-size: 34px;
+	color:#940404;
+	font-weight: 600;
+	margin-top: 3px;
+}
+#tres h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	margin-top: 3px;
+	color: #9b9b9b!important;
+}
+
+.properties{
+	font-family: 'Open Sans', sans-serif!important;
+	font-size:25px!important;
+	margin-top: 3px!important;
+	color:#404040!important;
+}
+.propertiesnegro{
+	font-family: 'Open Sans', sans-serif!important;
+	font-size:25px!important;
+	margin-top: 3px!important;
+	color:#000!important;
+}
+.button{
+	background: #046494;
+	border-radius: 5px;
+	font-family: 'Open Sans';
+}
+
+.button:hover {
+	background-color: #004669;
+}
+.bottonsincolor{
+	background: white!important;
+	color: #046494!important;
+	border: 1px solid #046494!important;
+	font-family: 'Open Sans', sans-serif!important;
+	font-size:15px!important;
+	margin-top: 3px!important;
+}
+#uno .button{
+	background-color: #046494;
+}
+/* Home */
+
+/* About San Miguel */
+#section-dos-about{
+	background-color: #fff6e7;
+}
+#section-uno-about h1{
+	font-family: 'Hind', sans-serif;
+	font-size: 45px;
+	color:#940404;
+	font-weight: 600;
+	margin-top: 3px;
+}
+#section-uno-about p{
+	font-family: 'Open Sans', sans-serif;
+	font-size:19px;
+	margin-top: 3px;
+	color: #4a4a4a!important;
+}
+#section-dos-about h1{
+	font-family: 'Hind', sans-serif;
+	font-size: 25px;
+	color:#940404;
+	font-weight: 600;
+	margin-top: 3px;
+}
+
+#section-dos-about p{
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	margin-top: 3px;
+	color: #4a4a4a!important;
+	
+}
+#zonas-sma h1,
+#title-what-to-do{
+	font-family: 'Hind', sans-serif!important;
+	font-size: 45px!important;
+	color:#940404!important;
+	font-weight: 600!important;
+	margin-top: 3px!important;
+	text-align: center;
+}
+#zonas-sma p,
+#subtitle-what-to-do{
+	font-family: 'Open Sans', sans-serif!important;
+	font-size:19px!important;
+	margin-top: 3px!important;
+	color: #4a4a4a!important;
+	text-align: center;
+}
+.gallery-cont {
+	position: relative;
+}
+.gallery-cont .img.viewer {
+	position: absolute;
+	background-color: whitesmoke;
+	height:100%;
+	width:100%;
+	display: none;
+}
+.gallery-cont .img.viewer i.fa-close {
+	color: #940404;
+	cursor: pointer;
+}
+.gallery-cont .column .img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 180px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+#map-sma {
+	height: 480px;
+}
+
+#thumbs-zonas-sma .column {
+	margin-bottom: 2rem;
+}
+
+#thumbs-zonas-sma img {
+	display: block;
+	margin: 0 auto;
+}
+
+#thumbs-zonas-sma h5 {
+	font-family: Hind;
+	color: #940404;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 12px auto;
+}
+
+#thumbs-zonas-sma .description {
+	max-height: 160px;
+	overflow: auto;
+	margin-bottom: .4cm;
+}
+
+#thumbs-zonas-sma .description::-webkit-scrollbar {
+	-webkit-appearance: none;
+}
+
+#thumbs-zonas-sma .description::-webkit-scrollbar:vertical {
+	width: 11px;
+}
+
+#thumbs-zonas-sma .description::-webkit-scrollbar:horizontal {
+	height: 11px;
+}
+
+#thumbs-zonas-sma .description::-webkit-scrollbar-thumb {
+	border-radius: 8px;
+	border: 2px solid #F5F5F5; /* should match background, can't be transparent */
+	background-color: rgba(0, 0, 0, .5);
+}
+
+#thumbs-zonas-sma .description::-webkit-scrollbar-track {
+	background-color: #F5F5F5;
+	border-radius: 8px;
+}
+
+/* About San Miguel */
+
+/* Propiedad */
+#propiedad-principal .swiper-slide{
+	height: 60vh;
+	background-size: cover;
+	background-position: 50% 50%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#propiedad-principal .swiper-slide img {
+	max-height: 60vh;
+}
+.gallery-thumbs{
+	height: 160px;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.gallery-thumbs .swiper-slide {
+	height: 100px !important;
+}
+
+.title-propiedad {
+	font-family: 'Hind', sans-serif;
+	font-size: 50px;
+	font-weight: 600;
+	margin-top: 3px;
+	color: #4a4a4a;
+
+}
+.subtitle-propiedad{
+	font-family: 'Hind', sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	color: #9b9b9b;
+}
+
+.listing-type {
+	font-family:'Open Sans';
+}
+
+.listing-type .badge {
+	background-color: #046494;
+}
+
+#redes-sociales{
+	float: right;
+	width: 4cm;
+}
+.menu-propiedad{
+	padding-left: 1cm;
+	list-style: none;
+}
+.menu-propiedad li{
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	margin-top: 3px;
+	color:#4a4a4a;
+}
+.cuadro-contact-our{
+	background-color: #f7f7f7;
+}
+#single-location {
+	height: 50vh!important;
+
+}
+#menu-other-features{
+	padding: 0 2cm 0 2cm;
+}
+#menu-other-features li{
+	padding: 0 1cm 0 1cm;
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	margin-top: 3px;
+	color:#676767;
+}
+
+#subtitlepropiedad{
+	font-family: 'Hind', sans-serif!important;
+	font-size: 21px!important;
+	font-weight: 600;
+	margin-top: 3px;
+	color: #4a4a4a!important;
+}
+
+#features .column h6 {
+    font-family: 'Open Sans';
+    text-align: center;
+    display: block;
+}
+
+/* Propiedad */
+
+/* Footer */
+footer {
+	z-index: 2;
+}
+
+footer:not(.abs) {
+	position: relative;
+	background-color: #efefef;
+}
+
+.logo-footer{
+	padding-left: 1cm;
+}
+
+footer .elements {
+	text-align: right !important;
+}
+
+footer h1 {
+	font-family: 'Hind', sans-serif;
+	font-size: 45px;
+	color:#404040;
+	font-weight: 600;
+	margin-top: 3px;
+}
+footer a{
+	color: #676767;
+}
+footer a:hover{
+	color: #676767;
+}
+footer .menu li a{
+	font-family: 'Open Sans';
+}
+.parrafoprincipal {
+	max-height: 420px;
+	overflow-y: auto;
+	transition: 300ms ease-out;
+}
+
+.parrafoprincipal p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	margin-top: 3px;
+	color: #676767;
+}
+/* Footer */
+
+
+
+/* zimoo354 */
+
+body {
+	overflow-x: hidden;
+}
+
+.gallerytop {
+	margin-bottom: 12px;
+}
+
+.cuadro-contact-our div.img{
+    border-radius: 150px;
+    height: 128px;
+    width: 128px;
+    display: block;
+	background-size: cover;
+	background-position: 50% 0%;
+	margin: 0 auto;
+}
+
+.cuadro-contact-our h6 {
+	font-family: 'Open Sans';
+	font-size: 18pt;
+	font-weight: bolder;
+	color: #4a4a4a;
+}
+
+.cuadro-contact-our a {
+	color: #940404;
+}
+
+.cuadro-contact-our li {
+	font-family: 'Open Sans';
+	font-size: 14pt;
+	list-style-type: none;
+	font-weight: normal;
+	color: #4a4a4a;
+}
+
+.wpsight-listing-section-info {
+	margin-bottom: 0 !important;
+}
+
+.wpsight-listing-info {
+	padding: 0 !important;
+}
+
+#propiedad-principal .listing-price-symbol,
+#propiedad-principal .listing-price-value {
+	font-family: 'Hind', sans-serif !important;
+	font-size: 56px !important;
+	font-weight: 600 !important;
+	color: #4a4a4a !important;
+}
+
+.wpsight-listing-info .wpsight-listing-id {
+	font-family: 'Open Sans';
+	color: #454545;
+}
+
+.wpsight-listing-info {
+	border: none !important;
+}
+
+.wpsight-listing-details .listing-details-detail {
+	border: none !important;
+}
+
+.wpsight-listing-details .listing-details-label {
+	font-weight: 300 !important;
+}
+
+.wpsight-listings-search-sc select,
+.wpsight-listings-search-sc input[type=text],
+.wpsight-listings-search-sc input[type=submit] {
+	-webkit-tap-highlight-color: transparent;
+	background-color: #fff;
+	border-radius: 5px;
+	border: solid 1px #e8e8e8;
+	box-sizing: border-box;
+	clear: both;
+	display: block;
+	float: left;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	height: 42px !important;
+	outline: none;
+	padding-left: 18px;
+	padding-right: 30px;
+	position: relative;
+	text-align: left !important;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	white-space: nowrap;
+	width: 100%;
+	margin-bottom: 0 !important;
+}
+
+.wpsight-listings-search-sc input[type=submit] {
+	padding: 0 !important;
+	text-align: center !important;
+	width: 100% !important;
+}
+
+
+/* Page Title */
+
+#page-title h1 {
+	font-family: 'Open Sans';
+	color: white;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+	font-weight: bolder;
+}
+
+#page-title .bg-overlay {
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+/* Page Title */
+
+/* Listings Archive */
+
+#search-terms {
+	box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+	margin-bottom: 1cm;
+}
+
+#search .wpsight-listings-search {
+	background-color: white;
+}
+
+#search .wpsight-listings .img {
+	height: 200px;
+}
+
+.listing-archive .entry-title a {
+	font-family: Hind;
+	color: #4a4a4a;
+	font-weight: bolder;
+	font-size: 22pt;
+}
+
+.wpsight-listings-search .listings-search-field {
+	margin-bottom: 0;
+}
+
+#search .listings-panel-title {
+	font-family: Hind;
+}
+
+.wpsight-listing-section.wpsight-listing-section-title {
+	margin-bottom: 0;
+}
+#search .listing-price-symbol,
+#search .listing-price-value {
+	color: #046494;
+	font-family: Hind;
+	font-weight: 400;
+	font-size: 22pt;
+}
+
+#search .wpsight-listing-price-after {
+	font-family: Hind;
+	color: #940404;
+	font-size: 12pt;
+}
+
+#search .wpsight-listing-status span {
+	font-size: 10px;
+}
+
+.listing-details-label {
+	font-weight: lighter;
+}.listing-details-value {
+	 font-weight: bolder;
+ }
+
+ #search .listing-details-detail {
+	 width: 100%;
+ }
+
+/* Listings Archive */
+
+/* About us */
+
+.about-us h2 {
+	font-family: 'Open Sans';
+	color: #046494;
+	font-weight: 600;
+	margin-bottom: 1.2cm;
+}
+
+.about-us h5 {
+	color: #940404;
+	font-family: 'Open Sans';	
+	font-weight: 700;
+	margin: .6cm 0;	
+}
+
+.about-us h6 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	color: black;
+	text-transform: uppercase;
+}
+
+.about-us p,
+.about-us li,
+.about-us p {
+	font-family: 'Open Sans';
+	color: #4a4a4a;
+}
+
+.about-us blockquote {
+	border-left: none;
+	padding-left: 0;
+}
+
+.about-us blockquote,
+.about-us blockquote p {
+	font-style: italic;
+}
+
+#investment {
+	background-color: #940404;
+}
+
+#investment h1,
+#investment h6 {
+	font-weight: bolder;
+}
+
+#investment h1,
+#investment p,
+#investment h6 {
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans'
+}
+
+#info blockquote h6 {
+	text-transform: none;
+	color: #046494;
+}
+
+/* About us */
+
+/* Our Agents */
+
+.our-agents h2,
+.our-agents h5,
+.our-agents p {
+	text-align: center;
+}
+
+.our-agents h5 {
+	font-size: 24pt;
+	margin-top: 1cm;
+}
+
+.our-agents .single-agent {
+	background-color: white;
+	box-shadow: 0 0 12px rgba(0,0,0,0.3);
+	margin-bottom: .5cm;
+}
+
+.our-agents .single-agent .img {
+    cursor: pointer;
+}
+
+.single-agent .img {
+    border-radius: 150px;
+    height: 128px;
+    width: 128px;
+    display: block;
+	background-size: cover;
+	background-position: 50% 0%;
+	margin: 12px auto;
+}
+
+.our-agents .single-agent h6 {
+	text-transform: uppercase;
+	color: black;
+	font-family: 'Open Sans';
+	font-weight: bolder;
+}
+
+.our-agents .single-agent span.role {
+	color: #046494;
+	font-family: 'Open Sans';
+}
+
+.menu>li:not(.menu-text)>a,
+.menu>li:not(.menu-text)>button {
+    display: block;
+    padding: .7rem 1rem;
+    line-height: 1;
+    text-align: center;
+}
+
+.our-agents .single-agent i.fa {
+	color: #940404;
+}
+
+.iziModal h1 {
+	font-family: 'Open Sans';
+	text-align: center;
+	font-size: 24pt;
+	margin-top: 24px;
+	font-weight: bolder;
+	color: #940404;
+	border: none;
+	outline: none;
+}
+
+.iziModal button,
+#thumbs-zonas-sma .button,
+.listings-search-field.listings-search-field-submit input[type=submit] {
+	display: block;
+	width: 180px;
+	margin: 0 auto;
+    padding: 0.4cm 1cm;
+    background-color: #046494;
+	font-family: 'Open Sans';
+	color: white;
+}
+
+#cv-content {
+    min-height: 100px;
+}
+
+.iziModal p {
+	color: #9b9b9b;
+	font-family: 'Open Sans';
+	text-align: center;
+}
+
+.agent-cv #name-cv {
+    font-size: 18pt;
+    color: #046494;
+    font-weight: bolder;
+    margin-top: .8cm;
+}
+
+.agent-cv div,
+.agent-cv p,
+.agent-cv li,
+.agent-cv td,
+.agent-cv dd,
+.agent-cv dt,
+.agent-cv span {
+	text-align: justify;
+	color: #333;
+}
+
+.agent-cv p,
+.agent-cv li,
+.agent-cv h1,
+.agent-cv h2,
+.agent-cv h3,
+.agent-cv h4,
+.agent-cv h5,
+.agent-cv h6,
+.agent-cv th,
+.agent-cv td,
+.agent-cv span,
+.agent-cv label,
+.agent-cv div {
+    font-family: 'Open Sans';
+	line-height: 24pt;
+}
+
+/* Our Agents */
+
+/* Searchform */
+#searchform .button {
+	display: block;
+	width: 100%;
+	font-family: 'Open Sans';
+	font-size: 16pt;
+    padding: 0.25cm;
+}
+
+#searchform input,
+#searchform select,
+#searchform .button {
+	margin-bottom: 0 !important;
+	box-shadow: none !important;
+}
+
+.searchform-container {
+	margin-top: 1cm;
+	padding: .3cm;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 0 4px rgba(0,0,0,0.5);
+	position: absolute;
+	bottom: 10vh;
+	z-index: 10;
+}
+
+.searchform-container * {
+	box-sizing: border-box;
+}
+
+
+select.goog-te-combo {
+	display: none;
+}
+
+.nice-select {
+	width:	100%;
+}
+
+.nice-select ul.list {
+	max-height: 260px;
+	overflow: auto;
+}
+
+/* Mobile */
+
+#sidr img {
+	max-height: 80px;
+	display: block;
+	margin: 10px auto;
+}
+
+#sidr i.fa.fa-close {
+	display: block;
+	text-align: right;
+	margin: 9px;
+}
+
+#sidr a {
+	font-family: "Open Sans";
+}
+
+@media screen and (max-width: 768px) {
+	.searchform-container {
+		position: unset;
+	}
+	#propiedad-principal .parrafoprincipal {
+		padding: 18px 0 !important;
+	}
+	.searchform-container input#keyword {
+		margin-bottom: 12px !important;
+	}
+	footer .menu {
+		margin-bottom: 2cm;
+	}
+	footer .menu li a{
+		text-align: center !important;
+	}
+	#propiedad-principal h1.title-propiedad {
+		font-size: 32pt;
+	}
+	#propiedad-principal .subtitle-propiedad {
+		font-size: 16pt;
+	}
+	#propiedad-principal .wpsight-listing-section-info .alignright,
+	#propiedad-principal .wpsight-listing-section-info .alignleft {
+		width: 100%;
+	}
+	#propiedad-principal .wpsight-listing-info.clearfix * {
+		display: inline-block;
+		text-align: center;
+	}
+}
+
