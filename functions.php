@@ -1,7 +1,7 @@
 <?php
 include('mandrill/Mandrill.php');
 global $MANDRILL_API_KEY;
-$MANDRILL_API_KEY = 'lFwDXkU9JM-pHtBjKKUV9g';
+$MANDRILL_API_KEY = 'xxxxxxxxx';
 
 // add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 function my_theme_enqueue_styles() {
